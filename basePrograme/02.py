@@ -35,3 +35,8 @@ for i in range(len(tb)):
 '''
 a = {233, 12, 2, 'ad'}
 print(type(a))
+
+a = {1, 3, 'fzy'}
+b = {'he', 'it', 'her'}
+# 交集
+print(a|b)
