@@ -30,6 +30,7 @@ class Application(Frame):
                              , borderwidth=5, relief="groove", justify="right")
         self.label04.pack()
 
+
 if __name__ == '__main__':
     root = Tk()
     root.geometry("400x100+200+300")
